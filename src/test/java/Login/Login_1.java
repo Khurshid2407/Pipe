@@ -6,11 +6,29 @@ public class Login_1 {
 
 	@Test(groups = "smoke")
 	public void test01() {
-		System.out.println("login -> Smoke testing");System.out.println("update somthing");
+		String browser=System.getProperty("browser");
+		String env=System.getProperty("env");
+		System.out.println(browser);
+		System.out.println(env);
+		System.out.println("login -> Smoke testing");
 	}
 
 	@Test(groups = "regression")
 	public void test02() {
+		String browser=System.getProperty("browser");
+		String env=System.getProperty("env");
+		System.out.println(browser);
+		System.out.println(env);
 		System.out.println("login -> regression testing");
+	}
+	
+
+	@Test(groups = "retest")
+	public void test03() {
+		String browser=System.getProperty("browser");
+		String env=System.getProperty("env");
+		System.out.println(browser);
+		System.out.println(env);
+		System.out.println("login -> retest testing");
 	}
 }

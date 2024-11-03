@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.008" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.017" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+10-LTS-268"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\Users\khurs\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Denv=https://www.qa.com -Dbrowser=chrome"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RET -Denv=https://www.qa.com -Dbrowser=chrome"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,6 +63,6 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test02" classname="Login.Login_1" time="0.007"/>
-  <testcase name="test02" classname="Org.org" time="0.001"/>
+  <testcase name="test03" classname="Login.Login_1" time="0.013"/>
+  <testcase name="test03" classname="Org.org" time="0.004"/>
 </testsuite>

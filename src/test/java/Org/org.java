@@ -22,4 +22,14 @@ public class org {
 		System.out.println(env);
 		System.out.println("Org -> regression testing");
 	}
+	
+	@Test(groups = "retest")
+	public void test03() {
+		String browser=System.getProperty("browser");
+		String env=System.getProperty("env");
+		
+		System.out.println(browser);
+		System.out.println(env);
+		System.out.println("Org -> retest testing");
+	}
 }
